@@ -1,4 +1,4 @@
-fun main(){
+fun main() {
     val content = "day01.txt".loadFile().split("\n\n")[0]
     println(content)
 }
