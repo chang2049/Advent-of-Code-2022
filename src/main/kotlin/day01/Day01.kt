@@ -1,6 +1,6 @@
 package day01
 
-import loadFile
+import asResource
 
 fun main(){
     val sortedCalories = sortCalories(processFile())
@@ -11,5 +11,6 @@ fun main(){
 fun sortCalories(calList: List<List<Int>>)=
     calList.map { it.sum() }.sortedDescending()
 
-fun processFile()= "day01.txt".loadFile().split("\n\n")
-    .map { numlist -> numlist.split("\n").map { it.toInt() } }
+fun processFile()= "day01.txt".asResource {
+    it.split("\n\n").map { numlist -> numlist.split("\n").map { it.toInt() } }
+}
