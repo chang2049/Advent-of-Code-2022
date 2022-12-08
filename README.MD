@@ -7,3 +7,4 @@
 - [Day 5: Supply Stacks](src/main/kotlin/day05/Day05.kt)
 - [Day 6: Tuning Trouble](src/main/kotlin/day06/Day06.kt)
 - [Day 7: No Space Left On Device](src/main/kotlin/day07/Day07.kt)
+- [Day 8: Treetop Tree House](src/main/kotlin/day08/Day08.kt)
