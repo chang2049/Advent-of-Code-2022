@@ -8,3 +8,4 @@
 - [Day 6: Tuning Trouble](src/main/kotlin/day06/Day06.kt)
 - [Day 7: No Space Left On Device](src/main/kotlin/day07/Day07.kt)
 - [Day 8: Treetop Tree House](src/main/kotlin/day08/Day08.kt)
+- [Day 9: Rope Bridge](src/main/kotlin/day09/Day09.kt)
