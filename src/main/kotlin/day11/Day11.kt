@@ -3,10 +3,14 @@ package day11
 import asResource
 
 fun main() {
-    println("Q1: ${processFile().inspect(20,3).map { it.inspectCount }
-        .sortedDescending().take(2).reduce { acc, i -> acc * i }}")
-    println("Q2: ${processFile().inspect(10000,1).map { it.inspectCount }
-        .sortedDescending().take(2).reduce { acc, i -> acc * i }}")
+    println(
+        "Q1: ${processFile().inspect(20,3).map { it.inspectCount }
+            .sortedDescending().take(2).reduce { acc, i -> acc * i }}"
+    )
+    println(
+        "Q2: ${processFile().inspect(10000,1).map { it.inspectCount }
+            .sortedDescending().take(2).reduce { acc, i -> acc * i }}"
+    )
 }
 
 fun List<Monkey>.inspect(rounds: Int, division: Long): List<Monkey> {

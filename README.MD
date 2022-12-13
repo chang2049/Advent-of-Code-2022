@@ -9,3 +9,6 @@
 - [Day 7: No Space Left On Device](src/main/kotlin/day07/Day07.kt)
 - [Day 8: Treetop Tree House](src/main/kotlin/day08/Day08.kt)
 - [Day 9: Rope Bridge](src/main/kotlin/day09/Day09.kt)
+- [Day 10: Cathode-Ray Tube](src/main/kotlin/day10/Day10.kt)
+- [Day 11: Monkey in the Middle](src/main/kotlin/day11/Day11.kt)
+- [Day 12: Hill Climbing Algorithm](src/main/kotlin/day12/Day12.kt)
