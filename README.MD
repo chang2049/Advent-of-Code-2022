@@ -13,3 +13,4 @@
 - [Day 11: Monkey in the Middle](src/main/kotlin/day11/Day11.kt)
 - [Day 12: Hill Climbing Algorithm](src/main/kotlin/day12/Day12.kt)
 - [Day 13: Distress Signal](src/main/kotlin/day13/Day13.kt)
+- [Day 14: Regolith Reservoir](src/main/kotlin/day14/Day14.kt)
