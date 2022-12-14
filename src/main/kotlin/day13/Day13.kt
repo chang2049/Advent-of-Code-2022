@@ -17,7 +17,7 @@ fun sumIndexOfRightOrderedPackets(packetPairs: List<Pair<ArrayDeque<Any>, ArrayD
     packetPairs.mapIndexed { index, packet -> Pair(index, packet.first.compareTo(packet.second)) }
         .filter { it.second < 0 }.sumOf { it.first + 1 }
 
-fun multipleDecoderKey(packets: List<Pair<ArrayDeque<Any>, ArrayDeque<Any>>>, a:ArrayDeque<Any>,b:ArrayDeque<Any> )=
+fun multipleDecoderKey(packets: List<Pair<ArrayDeque<Any>, ArrayDeque<Any>>>, a: ArrayDeque<Any>, b: ArrayDeque<Any>) =
     (packets.flatMap { it.toList() } + listOf(a, b)).sortedWith(ArrayDeque<*>::compareTo)
         .let { (it.indexOf(a) + 1) * (it.indexOf(b) + 1) }
 
@@ -26,9 +26,7 @@ fun ArrayDeque<*>.compareTo(other: ArrayDeque<*>): Int {
         if (other.size < it + 1) return 1
         if (this.size < it + 1) return -1
         val result = compare(this[it]!!, other[it]!!)
-        if (result < 0) {
-            return result
-        } else if (result > 0) return result
+        if (result != 0) return result
     }
     return 0
 }
