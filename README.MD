@@ -12,3 +12,4 @@
 - [Day 10: Cathode-Ray Tube](src/main/kotlin/day10/Day10.kt)
 - [Day 11: Monkey in the Middle](src/main/kotlin/day11/Day11.kt)
 - [Day 12: Hill Climbing Algorithm](src/main/kotlin/day12/Day12.kt)
+- [Day 13: Distress Signal](src/main/kotlin/day13/Day13.kt)
